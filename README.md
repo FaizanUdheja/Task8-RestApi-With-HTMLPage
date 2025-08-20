@@ -116,7 +116,9 @@ Testing Instructions
 Screenshots
 ------------
 
-[Insert screenshots of the application in action]
+<img width="1366" height="424" alt="Screenshot (645)" src="https://github.com/user-attachments/assets/05b98b77-bab9-48c3-9c2c-d555f265cd7b" />
+<img width="519" height="136" alt="Screenshot (646)" src="https://github.com/user-attachments/assets/c6c56399-5163-4440-8419-2fbe324499ac" />
+
 
 API Reference
 -------------
