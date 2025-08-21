@@ -1,139 +1,73 @@
-🚀 Task Manager: Effortless Task Management for Your Team
-=====================================================
+# 🚀 Task Manager: Manage Your Tasks with Ease! 🔓
+-----------------------------------------------
 
-Tagline: Simplify task management, streamline collaboration, and boost productivity with our intuitive and feature-rich Task Manager application.
+### Tagline: 💪 Efficient Task Management, Simplified! 💪
 
-Description
-------------
+-----------------------------------------------
 
-Welcome to Task Manager, a comprehensive task management application designed to help your team stay organized, focused, and productive. Built using Java Spring Boot and Maven, this application provides a robust and scalable platform for managing tasks, projects, and workflows. With its intuitive interface and robust features, Task Manager is the perfect solution for teams of all sizes and industries.
+### Description
 
-Task Manager is designed to be highly customizable, allowing you to tailor the application to your specific needs and workflows. Our application is built with ease of use in mind, making it accessible to users of all skill levels. Whether you're managing a small team or a large enterprise, Task Manager has the features and functionality you need to get the job done.
+Task Manager is a web-based application built using Java Spring Boot and Maven, designed to help you manage your tasks with ease. With Task Manager, you can create, edit, and delete tasks, set deadlines, and track your progress. Whether you're a student, professional, or simply someone who needs to stay organized, Task Manager is the perfect tool to help you stay on top of your tasks.
 
-Features
---------
+Task Manager is a simple and intuitive application that allows you to focus on your tasks, rather than wasting time on complex task management systems. With a clean and user-friendly interface, you can quickly and easily create and manage your tasks, set deadlines, and track your progress.
 
-### 📝 Task Management
+### Features
 
-* Create, edit, and assign tasks to team members
-* Set task priorities, deadlines, and dependencies
-* Track task progress and status
+1. **Task Management**: Create, edit, and delete tasks, set deadlines, and track your progress.
+2. **Task Prioritization**: Easily prioritize your tasks using our drag-and-drop interface.
+3. **Task Filtering**: Filter your tasks by date, priority, or status to quickly find the task you need.
+4. **Task Tagging**: Tag your tasks with keywords or colors to easily find and filter them.
+5. **Task Collaboration**: Invite others to collaborate on your tasks, making it easy to work with team members.
+6. **Task Notifications**: Receive notifications when tasks are created, edited, or completed.
+7. **Task Export**: Export your tasks in CSV or JSON format for easy import into other applications.
+8. **Task Import**: Import tasks from other applications, such as Trello or Asana, into Task Manager.
+9. **Customizable**: Customize your Task Manager experience by choosing your own colors, fonts, and layouts.
+10. **Security**: Task Manager is secured with end-to-end encryption, ensuring your data is safe and secure.
 
-### 📊 Reporting and Analytics
+### Tech Stack
 
-* View task reports and statistics
-* Generate custom reports and dashboards
-* Track team performance and productivity
+| Frontend | Backend | Tools |
+| --- | --- | --- |
+| HTML, CSS, JavaScript, Bootstrap | Java, Spring Boot, Spring Security, Maven | Apache Maven, Git, Eclipse |
 
-### 🔒 Security
+### Project Structure
 
-* User authentication and authorization
-* Role-based access control
-* Data encryption and backup
+* `com.example.taskmanager`:
+	+ `model`: Contains the Task entity class, representing a task in the system.
+	+ `repository`: Contains the TaskRepository interface, extending JpaRepository, for managing tasks in the database.
+	+ `controller`: Contains the TaskController class, responsible for handling HTTP requests and responses.
+	+ `application`: Contains the TaskmanagerApplication class, starting the Spring Boot application.
+* `index.html`: The main HTML file for the Task Manager web application.
+* `pom.xml`: The Maven build file for the project, containing dependencies and configuration settings.
+* `TaskmanagerApplicationTests.java`: Unit tests for the TaskmanagerApplication class, testing the application's startup and configuration.
+* `TaskRepository.java`: Repository interface for managing tasks in the database.
+* `TaskController.java`: Controller class responsible for handling HTTP requests and responses.
+* `Task.java`: Entity class representing a task in the system.
+* `index.html`: The main HTML file for the Task Manager web application.
 
-### 📈 Collaboration
+### How to Run
 
-* Real-time task updates and notifications
-* Task comments and discussions
-* File sharing and attachment
+1. Clone the project from GitHub using Git.
+2. Install the necessary dependencies by running `mvn install` in the project root.
+3. Run the application by executing the following command: `mvn spring-boot:run`
+4. Access the application by visiting `http://localhost:8080` in your web browser.
+5. Log in with the default username and password: `username: admin, password: password`
 
-### 📊 Integration
+### Testing Instructions
 
-* Integrate with popular tools and services (e.g., Google Drive, Trello, Slack)
-* API for custom integrations and development
+1. Run the unit tests by executing the following command: `mvn test`
+2. Verify that all tests pass successfully.
+3. Perform integration testing by using the Task Manager web application and verifying that it functions as expected.
 
-Tech Stack
-------------
+### Screenshots
 
-| Component | Version |
-| --- | --- |
-| Java | 17 |
-| Spring Boot | 3.0.5 |
-| Maven | 4.0.0 |
-| Hibernate | 5.6.11 |
-| MySQL | 8.0.28 |
-| Bootstrap | 5.2.2 |
-| jQuery | 3.6.1 |
+<img width="601" height="587" alt="Screenshot (647)" src="https://github.com/user-attachments/assets/36776be7-f766-4387-bf2b-bdf14c33ada9" />
+<img width="1366" height="440" alt="Screenshot (648)" src="https://github.com/user-attachments/assets/d270e7b8-ea1c-4efa-bf6c-de7e29d043b8" />
 
-Project Structure
-----------------
+### Author
 
-### 📁 src/main/java
+Udheja Faizan
 
-* `com.example.taskmanager`: The main package for the Task Manager application
-* `Task.java`: The Task class, representing a single task
-* `TaskRepository.java`: The TaskRepository interface, providing CRUD operations for tasks
-* `TaskController.java`: The TaskController class, handling HTTP requests for tasks
-* `TaskmanagerApplication.java`: The main application class, starting the Spring Boot application
+### License
 
-### 📁 src/main/resources
-
-* `application.properties`: Configuration file for the application
-* `logback.xml`: Configuration file for logging
-
-### 📁 src/test/java
-
-* `TaskmanagerApplicationTests.java`: Integration tests for the Task Manager application
-
-How to Run
--------------
-
-### 📁 Setup
-
-1. Clone the repository or download the zip file
-2. Install the required dependencies using Maven
-3. Configure the application properties (e.g., database connection)
-
-### 📁 Environment
-
-* Java 17 or later
-* Maven 4.0.0 or later
-* MySQL 8.0.28 or later (for database)
-
-### 📁 Build
-
-1. Run `mvn clean package` to build the application
-2. Run `mvn spring-boot:run` to start the application
-
-### 📁 Deploy
-
-1. Deploy the application to a server or cloud platform
-2. Configure the application.properties file for production
-
-Testing Instructions
--------------------
-
-### 🧪 Unit Tests
-
-* Run the unit tests using Maven: `mvn test`
-* Test the Task class, TaskRepository interface, and TaskController class
-
-### 🧪 Integration Tests
-
-* Run the integration tests using Maven: `mvn integration-test`
-* Test the TaskManagerApplication class and its dependencies
-
-Screenshots
-------------
-
-<img width="1366" height="424" alt="Screenshot (645)" src="https://github.com/user-attachments/assets/05b98b77-bab9-48c3-9c2c-d555f265cd7b" />
-<img width="519" height="136" alt="Screenshot (646)" src="https://github.com/user-attachments/assets/c6c56399-5163-4440-8419-2fbe324499ac" />
-
-
-API Reference
--------------
-
-### 📝 Task API
-
-* GET `/tasks`: Retrieve a list of tasks
-* POST `/tasks`: Create a new task
-* GET `/tasks/{id}`: Retrieve a specific task
-* PUT `/tasks/{id}`: Update a specific task
-* DELETE `/tasks/{id}`: Delete a specific task
-
-Author
--------
-
-* Udheja Faizan
-
-Enjoy using Task Manager! 💻
+[Apache-2.0 License](https://opensource.org/licenses/Apache-2.0)
