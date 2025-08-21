@@ -66,8 +66,5 @@ Task Manager is a simple and intuitive application that allows you to focus on y
 
 ### Author
 
-Udheja Faizan
+**Udheja Faizan**
 
-### License
-
-[Apache-2.0 License](https://opensource.org/licenses/Apache-2.0)
