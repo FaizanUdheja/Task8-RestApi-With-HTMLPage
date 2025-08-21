@@ -28,7 +28,7 @@ Task Manager is a simple and intuitive application that allows you to focus on y
 
 | Frontend | Backend | Tools |
 | --- | --- | --- |
-| HTML, CSS, JavaScript, Bootstrap | Java, Spring Boot, Spring Security, Maven | Apache Maven, Git, Eclipse |
+| HTML, CSS, JavaScript, Bootstrap | Java, Spring Boot, Spring Security, Maven | Apache Maven, Git, NetBeans |
 
 ### Project Structure
 
